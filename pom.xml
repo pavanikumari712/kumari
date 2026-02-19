@@ -50,6 +50,14 @@
     </dependencies>
 
     <build>
+         <plugin>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-maven-plugin</artifactId>
+    <configuration>
+        <mainClass>com.instagram.sample.InstagramApplication</mainClass>
+    </configuration>
+         </plugin>
+
         <finalName>instagram-sample</finalName>
         <plugins>
 
